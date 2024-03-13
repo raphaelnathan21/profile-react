@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    margin: 0 50px;
+    font-size: 25px;
+    
+}
+
+.menu {
+    font-size: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid rgb(122, 151, 248);
+    padding: 0 50px;
+}
+
+.menu a:last-child {
+    border: none;
+}
+
+span {
+    color: rgb(122, 151, 248);
+}
+
+.sLogo {
+    width: 350px;
+}
+
+h1{
+    font-size: 100px
+}
