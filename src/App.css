@@ -11,13 +11,21 @@ html {
 
 .styleHeader {
     display: flex;
-    margin-left: 40px;
+    align-items: center;
 }
 
 .styleHeader img {
-    width: 7%;
-    height: 7%;
+    width: 10%;
+    height: 10%;
     margin-right: 10px;
+}
+
+.containerHeader a{
+    color: white;
+}
+
+.containerHeader a:hover {
+    color: rgb(31, 31, 121);
 }
 
 .styleHeader h2 {
@@ -27,6 +35,14 @@ html {
 .styleMain {
     margin: 70px 120px;
     
+}
+
+.containerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 50px;
+    margin: 0 40px;
 }
 
 p {

@@ -2,7 +2,7 @@ import './Home.css'
 import img1 from '../../img/img1.png';
 import {Link} from 'react-router-dom';
 
-const Home = () => {
+const Home = (props) => {
     return (
         <>
             <div className='home'>
@@ -17,8 +17,12 @@ const Home = () => {
             </div>
 
             <div className='menu'>
+                <Link to = {props.to1}>
                 <a>Sobre mim</a>
+                </Link>
+                <Link to = {props.to2}>
                 <a>Meus Projetos</a>
+                </Link>
             </div>
         </>
     )
